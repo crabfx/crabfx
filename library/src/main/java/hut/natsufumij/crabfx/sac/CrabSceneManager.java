@@ -1,11 +1,16 @@
 package hut.natsufumij.crabfx.sac;
 
+import hut.natsufumij.crabfx.sac.impl.CrabSceneManagerV1;
+
 /**
  * 场景管理器，使用状态机来管理各个场景之间的关系
  *
  * @author Administrator
  */
 public interface CrabSceneManager {
+
+    //单例
+    CrabSceneManager manager = new CrabSceneManagerV1();
 
     //获取当前的场景
     CrabScene now();

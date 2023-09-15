@@ -13,7 +13,7 @@ import hut.natsufumij.crabfx.sac.impl.CrabComponentPoolV1;
  */
 public abstract class CrabComponent {
 
-    //组件支持系统
+    //组件支持系统单例
     public static final CrabComponentPool system = new CrabComponentPoolV1();
 
     //组件id

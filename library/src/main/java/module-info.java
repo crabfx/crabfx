@@ -10,4 +10,5 @@ module Library {
     requires javafx.base;
     
     exports hut.natsufumij.crabfx.engine;
+    exports hut.natsufumij.crabfx.sac;
 }

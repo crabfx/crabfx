@@ -1,5 +1,6 @@
 package hut.natsufumij.crabfx.sac.impl;
 
+import hut.natsufumij.crabfx.sac.CrabComponentPool;
 import hut.natsufumij.crabfx.sac.CrabScene;
 import hut.natsufumij.crabfx.sac.CrabSceneLoader;
 import hut.natsufumij.crabfx.sac.CrabSceneManager;
@@ -43,6 +44,11 @@ public class CrabSceneManagerV1 implements CrabSceneManager {
 
     @Override
     public CrabSceneManager waitPush(CrabScene waitScene, CrabScene nextScene, CrabSceneLoader loader) {
+        return null;
+    }
+
+    @Override
+    public CrabComponentPool pool() {
         return null;
     }
 }

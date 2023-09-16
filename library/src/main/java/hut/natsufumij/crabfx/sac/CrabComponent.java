@@ -4,17 +4,12 @@
  */
 package hut.natsufumij.crabfx.sac;
 
-import hut.natsufumij.crabfx.sac.impl.CrabComponentPoolV1;
-
 /**
  * 表示一个实体的行为，可以用作各种各样的事情
  *
  * @author Administrator
  */
 public abstract class CrabComponent {
-
-    //组件支持系统单例
-    public static final CrabComponentPool system = new CrabComponentPoolV1();
 
     //组件id
     protected final String id;

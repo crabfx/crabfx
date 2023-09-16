@@ -34,4 +34,7 @@ public interface CrabSceneManager {
     //进入等待场景等待下一个场景加载完毕后，进入下一个场景
     //场景加载，加载必要的资源素材
     CrabSceneManager waitPush(CrabScene waitScene,CrabScene nextScene,CrabSceneLoader loader);
+
+    //获取组件系统管理池
+    CrabComponentPool pool();
 }

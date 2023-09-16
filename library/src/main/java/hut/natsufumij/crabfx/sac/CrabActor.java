@@ -34,15 +34,24 @@ public interface CrabActor {
     //根据路径获取子节点
     CrabActor findChildByPath(String path);
 
-    //添加一个子节点，注：该子节点必须没有父节点，否则报错
-    void addChild(CrabActor actor);
+    //生成一个节点并加入到子节点列表中
+    CrabActor createChild(String id);
+
+    //添加一个子节点，注：该子节点必须没有父节点
+    boolean addChild(CrabActor actor);
 
     //根据节点id移除子节点
-    void removeChild(String id);
+    boolean removeChild(String id);
 
     //获取全部的组件id,无法做新增、删除操作
     ReadOnlySetProperty<String> components();
 
     //根据组件id获取指定组件
     CrabComponent component(String id);
+
+    //创建一个组件，如果不存在该组件生成器，则应该返回null
+    CrabComponent createComponent(String id);
+
+    //移除指定组件，如果移除失败，应该返回false
+    boolean removeComponent(String id);
 }

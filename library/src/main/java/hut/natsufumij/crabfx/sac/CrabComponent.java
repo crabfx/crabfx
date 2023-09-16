@@ -17,9 +17,9 @@ public abstract class CrabComponent {
     public static final CrabComponentPool system = new CrabComponentPoolV1();
 
     //组件id
-    private final String id;
+    protected final String id;
     //所属实体
-    private final CrabActor owner;
+    protected final CrabActor owner;
 
     public CrabComponent(String id, CrabActor owner) {
         this.id = id;

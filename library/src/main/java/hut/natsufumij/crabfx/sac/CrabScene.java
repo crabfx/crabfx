@@ -17,9 +17,6 @@ public interface CrabScene {
     //提供根节点
     CrabActor root();
 
-    //生成一个节点
-    CrabActor create(String id);
-    
     //提供场景id
     String id();
 

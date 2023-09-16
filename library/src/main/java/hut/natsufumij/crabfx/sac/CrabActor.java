@@ -34,8 +34,8 @@ public interface CrabActor {
     //根据路径获取子节点
     CrabActor findChildByPath(String path);
 
-    //生成一个节点并加入到子节点列表中
-    CrabActor createChild(String id);
+    //生成一个节点
+    CrabActor createActor(String id);
 
     //添加一个子节点，注：该子节点必须没有父节点
     boolean addChild(CrabActor actor);

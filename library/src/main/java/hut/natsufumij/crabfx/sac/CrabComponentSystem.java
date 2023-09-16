@@ -1,6 +1,6 @@
 package hut.natsufumij.crabfx.sac;
 
-import java.util.List;
+import javafx.beans.property.ReadOnlyListProperty;
 
 /**
  * @author NatsufumiJ
@@ -18,7 +18,7 @@ public interface CrabComponentSystem {
     boolean needProcess();
 
     //单一一帧，所有的同一组件的处理
-    void process(List<CrabComponent> allComps);
+    void process(ReadOnlyListProperty<CrabComponent> allComps);
 
     //处理优先级
     int priority();

@@ -2,8 +2,7 @@ package hut.natsufumij.crabfx.sac.impl;
 
 import hut.natsufumij.crabfx.sac.CrabComponentPool;
 import hut.natsufumij.crabfx.sac.CrabComponentSystem;
-
-import java.util.Set;
+import javafx.beans.property.ReadOnlySetProperty;
 
 /**
  * @author NatsufumiJ
@@ -13,7 +12,7 @@ import java.util.Set;
  */
 public class CrabComponentPoolV1 implements CrabComponentPool {
     @Override
-    public Set<String> supportSystem() {
+    public ReadOnlySetProperty<String> supportSystem() {
         return null;
     }
 

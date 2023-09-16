@@ -1,6 +1,6 @@
 package hut.natsufumij.crabfx.sac;
 
-import java.util.Set;
+import javafx.beans.property.ReadOnlySetProperty;
 
 /**
  * @author NatsufumiJ
@@ -11,7 +11,7 @@ import java.util.Set;
 public interface CrabComponentPool {
 
     //支持的组件系统id
-    Set<String> supportSystem();
+    ReadOnlySetProperty<String> supportSystem();
     //添加组件系统支持
     void addComponentSystem(CrabComponentSystem system);
 }

@@ -2,8 +2,22 @@
 CrabFX Game Development Kit
 
 # V1.0 Route Map
-- [ ] Standard Plan(撰写草案) 🦀(Current Location)
-- [ ] Development For Engine(编写引擎)
+- [X] Standard Plan(撰写草案) 
+- [ ] Development For Engine(编写引擎)🦀(Current Location)
+    - [ ] Launch 引擎启动
+    - [ ] SAC 场景/实体/组件
+    - [ ] Config 引擎配置
+    - [ ] Signal 信号
+    - [ ] Asset 资源
+    - [ ] Audio 声音
+    - [ ] Graphics 图形
+    - [ ] Input 输入
+    - [ ] Store 存档
+    - [ ] NetWork 网络
+    - [ ] Physics 物理
+    - [ ] Script 脚本
+    - [ ] Agent 人工智能
+    - [ ] I18N 国际化
 - [ ] Test Engine(测试引擎)
 - [ ] Development For Editor(编写编辑器)
 - [ ] Test Editor(测试编辑器)

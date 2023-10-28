@@ -3,5 +3,5 @@ module crabfx.engine {
     requires javafx.controls;
 
     exports hut.natsufumij.crabfx.engine.launch;
-    exports hut.natsufumij.crabfx.engine.sab;
+    exports hut.natsufumij.crabfx.engine.scene;
 }
